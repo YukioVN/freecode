@@ -39,18 +39,43 @@ body {
     margin: 0 auto;
 }
 
-label {
-    display: flex;
-    justify-content: center;
-    font-size: 1.125rem;
-    margin-bottom: 0.5rem;
+.txt label {
+    display: block;
+    text-align: center;
 }
 
-input[type="name"],
-input[type="email"] {
-    margin-left: 300px;
+.selectCurrent {
+    display: block;
+    text-align: center;
 }
 
-input[type="number"] {
-    margin-left: 350px;
+.recommend label {
+    display: block;
+    text-align: center;
+}
+
+#dropdown {
+    width: 250px;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+}
+
+.suggest label {
+    display: block;
+    text-align: center;
+}
+
+input {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 6px;
+}
+
+textarea,
+button {
+    display: block;
+    margin: 0 auto;
 }
